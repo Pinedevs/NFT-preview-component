@@ -1,0 +1,88 @@
+body{
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(200, 40%, 90%);
+  margin-bottom: 5px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+  max-width: 700px;
+  min-width: 400px;
+  width: 70%;
+  background-color:hsl(216, 50%, 16%);
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.equilibrium{
+  width: 90%;
+  margin: 5%;
+  border-radius: 8px;
+}
+ 
+h1{
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 5%;
+}
+
+p{
+  display: inline-block;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 5%;
+  color: hsl(230, 50%, 72%);
+  padding: 0;
+}
+
+.container div{
+  width: 80%;
+}
+
+hr{
+  border: 1px solid hsl(230, 50%, 72%);
+  margin-bottom: 10%;
+  width: 90%;
+}
+
+.ethereum{
+  margin-left: 8%;
+  margin-right: 25%;
+}
+
+.avatar{
+  overflow: hidden;
+  width: 12%;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+  margin: -15% 0 4% 5%;
+}
+
+p a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.id{
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin: -4px 0 20px 15px;
+}
+
+p a:hover{
+  color: hsl(200, 50%, 30%);
+  transition: 0.5s;
+}
